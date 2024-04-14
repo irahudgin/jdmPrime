@@ -1,0 +1,57 @@
+#root {
+    margin: 0;
+    width: 100%;
+}
+
+/* NAV */
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.navItemsList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: absolute;
+    height: 100%;
+    font-size: 30px;
+    top: 50%; /* Position the top 50% down from the parent container */
+    left: 50%; /* Position the left 50% from the left of the parent container */
+    transform: translate(-50%, -50%);
+}
+
+.navPageLinksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 10px;
+}
+
+/* Common to All Pages */
+
+.storePage {
+    background-color: gray;
+    height: 100%;
+}
+
+/* Home */
+
+h1 {
+    margin: 0;
+}
