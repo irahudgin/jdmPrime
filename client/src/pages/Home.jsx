@@ -1,9 +1,10 @@
 import React from "react";
+import BackgroundVideo from "../components/BackgroundVideo";
 
 function Home() {
     return (
-        <div className="storePage">
-            <h1 className="text-3xl font-bold underline">Home</h1>
+        <div className=" bg-black">
+            <BackgroundVideo />
         </div>
     );
 }

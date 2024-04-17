@@ -8,7 +8,6 @@
 .topNav {
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
     padding-right: 30px;
     position: relative;
 }
@@ -40,7 +39,6 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    font-size: 10px;
 }
 
 /* Common to All Pages */
