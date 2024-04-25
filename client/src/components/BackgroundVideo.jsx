@@ -6,7 +6,7 @@ export default function BackgroundVideo() {
     return (
         <div>
             <video
-                className=" opacity-50 object-cover w-screen h-screen fixed top-0 left-0 -z-20"
+                className=" opacity-50 object-cover w-screen h-screen absolute top-0 left-0 -z-20"
                 loop
                 autoPlay
                 muted
