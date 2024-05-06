@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Card from "./Card";
 
 export default function Arrivals() {
     var settings = {
@@ -10,29 +11,60 @@ export default function Arrivals() {
         autoplay: true,
         autoplaySpeed: 2000,
         pauseOnHover: true,
+        adaptiveHeight: true,
     };
 
     return (
-        <div className="flex justify-center items-center">
-            <div className="slider-container w-10/12">
+        <div className="flex justify-center shadow-lg p-4">
+            <div className="slider-container w-10/12 h-fit">
                 <Slider {...settings}>
-                    <div>
-                        <h3>1</h3>
+                    <div className="">
+                        <Card
+                            src="/images/car1.jpg"
+                            name="1992 Nissan 180sx"
+                            price="$9 899"
+                            newArrival={true}
+                        />
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <Card
+                            src="/images/car2.jpg"
+                            name="1999 Nissan Skyline GT-R"
+                            price="$43 399"
+                            newArrival={true}
+                        />
                     </div>
                     <div>
-                        <h3>3</h3>
+                        <Card
+                            src="/images/car3.jpg"
+                            name="1995 Toyota Supra"
+                            price="$49 999"
+                            newArrival={true}
+                        />
                     </div>
                     <div>
-                        <h3>4</h3>
+                        <Card
+                            src="/images/car4.jpg"
+                            name="1993 Mazda Rx-7"
+                            price="$32 999"
+                            newArrival={true}
+                        />
                     </div>
                     <div>
-                        <h3>5</h3>
+                        <Card
+                            src="/images/car5.jpg"
+                            name="2009 Subaru WRX STI"
+                            price="$14 599"
+                            newArrival={true}
+                        />
                     </div>
                     <div>
-                        <h3>6</h3>
+                        <Card
+                            src="/images/car6.jpg"
+                            name="1991 Toyota Landcruiser"
+                            price="$15 999"
+                            newArrival={true}
+                        />
                     </div>
                 </Slider>
             </div>
