@@ -2,6 +2,7 @@ import React from "react";
 import BackgroundVideo from "../components/BackgroundVideo";
 import Arrivals from "../components/Arrivals";
 import Footer from "../components/Footer";
+import ThreePiece from "../components/ThreePiece";
 
 import { useRef } from "react";
 import gsap from "gsap";
@@ -67,9 +68,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="h-screen bg-slate-300">
-                <Arrivals />
-            </div>
+            <Arrivals />
+            <ThreePiece />
             <Footer />
         </div>
     );

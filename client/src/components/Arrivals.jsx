@@ -15,7 +15,7 @@ export default function Arrivals() {
     };
 
     return (
-        <div className="flex justify-center shadow-lg p-4">
+        <div className="flex justify-center shadow-lg pt-6 pb-6">
             <div className="slider-container w-10/12 h-fit">
                 <Slider {...settings}>
                     <div className="">
@@ -67,6 +67,9 @@ export default function Arrivals() {
                         />
                     </div>
                 </Slider>
+                <button className="text-xl bg-white text-black border-2 border-black m-4 p-2 rounded-lg w-1/4">
+                    Browse all new arrivals
+                </button>
             </div>
         </div>
     );
