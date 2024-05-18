@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import Card from "./Card";
 
-export default function Arrivals() {
+export default function ProductSlider(props) {
     var settings = {
         dots: true,
         infinite: true,
@@ -23,7 +23,7 @@ export default function Arrivals() {
                             src="/images/car1.jpg"
                             name="1992 Nissan 180sx"
                             price="$9 899"
-                            newArrival={true}
+                            newArrival={false}
                         />
                     </div>
                     <div>
@@ -39,7 +39,7 @@ export default function Arrivals() {
                             src="/images/car3.jpg"
                             name="1995 Toyota Supra"
                             price="$49 999"
-                            newArrival={true}
+                            newArrival={false}
                         />
                     </div>
                     <div>
@@ -68,7 +68,7 @@ export default function Arrivals() {
                     </div>
                 </Slider>
                 <button className="text-xl bg-white text-black border-2 border-black m-4 p-2 rounded-lg w-1/4">
-                    Browse all new arrivals
+                    Browse all Inventory
                 </button>
             </div>
         </div>

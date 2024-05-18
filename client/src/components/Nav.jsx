@@ -38,8 +38,8 @@ function Nav() {
                                 </Link>
                             </li>
                             <li className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 ">
-                                <Link to="/services">
-                                    <span className="">Services</span>
+                                <Link to="/vehicles">
+                                    <span className="">Vehicles Available</span>
                                 </Link>
                             </li>
                             <li className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 ">

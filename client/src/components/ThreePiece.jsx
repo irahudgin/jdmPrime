@@ -38,7 +38,7 @@ export default function ThreePiece() {
             if (threePiece.current) {
                 const tpDim = threePiece.current.getBoundingClientRect();
 
-                if (tpDim.y < 300) {
+                if (tpDim.y < 600) {
                     tl.current.play();
                 }
             }
@@ -56,11 +56,11 @@ export default function ThreePiece() {
     return (
         <div
             ref={threePiece}
-            className=" shadow-lg flex w-full h-full bg-white justify-center items-center gap-4 p-4"
+            className="shadow-lg flex m-4 rounded-lg bg-white justify-center items-center gap-4 p-6"
         >
             <div
                 ref={threePieceAbout}
-                className=" bg-blue-400 w-full flex flex-col  h-full rounded-lg p-4"
+                className="shadow-md bg-blue-400 w-full flex flex-col  h-full rounded-lg p-4"
             >
                 <p className="text-3xl text-white p-4">JDM Prime</p>
                 <p className=" text-black font-sans font-bold p-4 ">
@@ -80,7 +80,7 @@ export default function ThreePiece() {
             <div className="flex flex-col w-full h-full  gap-4 ">
                 <div
                     ref={threePieceChoose}
-                    className=" bg-purple-400 w-full flex flex-col rounded-lg h-full p-4"
+                    className="shadow-md bg-purple-400 w-full flex flex-col rounded-lg h-full p-4"
                 >
                     <p className="text-3xl text-white p-4">Why choose Us?</p>
                     <p className="text-black font-sans font-bold p-4">
@@ -97,7 +97,7 @@ export default function ThreePiece() {
                 </div>
                 <div
                     ref={threePieceAfterSales}
-                    className="bg-orange-400 w-full flex flex-col  rounded-lg h-full p-4"
+                    className="shadow-md bg-orange-400 w-full flex flex-col  rounded-lg h-full p-4"
                 >
                     <p className="text-3xl text-white p-4">
                         After Sales Support

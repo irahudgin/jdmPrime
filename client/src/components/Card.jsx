@@ -17,7 +17,7 @@ export default function Card(props) {
                 src={props.src}
             ></img>
             <h1>{props.name}</h1>
-            <h1>{props.price}</h1>
+            <h1 className="font-sans text-xs font-bold">{props.price}</h1>
         </div>
     );
 }

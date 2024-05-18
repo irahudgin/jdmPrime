@@ -3,10 +3,12 @@ import BackgroundVideo from "../components/BackgroundVideo";
 import Arrivals from "../components/Arrivals";
 import Footer from "../components/Footer";
 import ThreePiece from "../components/ThreePiece";
+import Newsletter from "../components/Newsletter";
 
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import ProductSlider from "../components/ProductSlider";
 
 gsap.registerPlugin(useGSAP);
 
@@ -70,6 +72,8 @@ function Home() {
             </div>
             <Arrivals />
             <ThreePiece />
+            <Newsletter />
+            <ProductSlider />
             <Footer />
         </div>
     );
